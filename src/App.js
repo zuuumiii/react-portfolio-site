@@ -1,29 +1,10 @@
 import './App.css';
+import { Header } from './components/Header';
 
-const NameText = (props) => {
+function App() {
   return (
-    <p>hi,{props.name}!</p>
-  )
-}
-
-const Profile = (props) => {
-  return (
-    <div>
-      <p>{props.age}</p>
-      <p>{props.country}</p>
-    </div>
-  )
-}
-
-const App = () => {
-  return (
-    <div>
-      <NameText name=" Jack" />
-      <Profile age={22} country="US" />
-      <NameText name="Mary" />
-      <Profile age={20} country="UK" />
-    </div>
-  )
+    <Header />
+  );
 }
 
 export default App;
