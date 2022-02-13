@@ -25,9 +25,11 @@ h3 {
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   position: relative;
   height: 100vh;
   width: 100%;
+
 }
 
 .main-cover .overlay {
@@ -36,7 +38,7 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
-background: rgba(48, 191, 186, 0.9);
+background: rgba(48, 191, 186, 0.5);
 }
 
 .profile-thumb {
@@ -150,4 +152,8 @@ position: relative;
    height: 54px;
    background: #fff;
    color: #30BFBA;
+ }
+
+ .skill-item {
+   margin: 0 48px;
  }
